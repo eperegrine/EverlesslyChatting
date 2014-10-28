@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Everlessly Chatting</title>
+    <!--Imported APIs-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src='https://cdn.firebase.com/js/client/1.1.1/firebase.js'></script>
+    <!--Myscript-->
+    <script src="mainSystem.js"></script>
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="mainStyle.css">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Lato|Oswald' rel='stylesheet' type='text/css'>
+    <!--Meta-->
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <!--I could remove the need for this, but IE users need to learn...-->
+    <!--[if lte IE 8]>
+    <script>
+      alert("Your browser appears to be outdated, The chat will mostlikely not fully work \n
+      If you see this message however it does work email TODO: ADD SUPPORT EMAIL");
+    </script>
+    <![endif]-->
+    <div id="Titlebox">
+      <h1 id="Title">Welcome to Everlessly Chatting</h1>
+      <h2 id="subTitle">A Realtime messenger</h2>
+    </div>
+
+    <div id="allMessagesBox">
+        <div id="inputSection">
+            <input type='text' id='nameInput' placeholder='Name'>
+            <input type='text' id='messageInput' placeholder='Message' val="Hi">
+            <button id="sendButton" >Send</button>
+        </div>
+        <!--
+        Here is an example message, this is the area where messages appear
+        <div class="message">
+          <em class="userNameDisplayer">[UserName]</em>
+          [Message Content]
+        </div>
+        -->
+    </div>
+
+    <div id="footer">
+      This app is Open Source, meaning you can look at the source code, It's available <a href="TODO Link git rep">here</a>.
+    </div>
+  </body>
+</html>

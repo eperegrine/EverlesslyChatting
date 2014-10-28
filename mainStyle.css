@@ -1,0 +1,62 @@
+/*Tag styling*/
+input {
+  background-color: #828282;
+  border-width: 0px;
+  border-radius: 10px;
+  padding-left: 5px;
+  font-weight: bold;
+  color: #dfdfdf;
+}
+body {
+  background-color: #151725;
+  font-size: 2em;
+}
+input, button  {
+  margin: 1%;
+  width: 30%;
+  font-size: 2em;
+}
+/*Class Section*/
+.message{
+  background-color: #828282;
+  border-width: 0px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  font-weight: bold;
+  color: #dfdfdf;
+  font-family: 'Lato', sans-serif;
+}
+/*The id section*/
+#Titlebox{
+  font-family: 'Oswold', sans-serif;
+  border-radius: 15px;
+  padding: 10px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  background-color: #343438;
+  color: #828282;
+}
+#allMessagesBox {
+  border-color: #454943;
+  background-color: #27272e;
+  border-width: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+#inputSection{
+  margin: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  border-color: #343733;
+  background-color: #454040;
+  border-width: 10px;
+  border-radius: 5px;
+}
+#sendButton{
+  border-width: 0px;
+  border-radius: 10px;
+  background-color: #828282;
+  color: #dfdfdf;
+  font-weight: bold;
+}
