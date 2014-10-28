@@ -67,6 +67,6 @@ function isValidMsg(msg) {
 }
 
 function displayChatMessage(name, text) {
-  $messageToDisplay = "<div class='message'> <em class='userNameDisplayer'>" + name + "</em>:" + "&#9;" + text + "</div>";
+  $messageToDisplay = "<div class='message'> <em class='userNameDisplayer'>" + name + "</em>  :" + "&#9;&#9;&#9;" + text + "</div>";
   $('#allMessagesBox').append($messageToDisplay);
 };
